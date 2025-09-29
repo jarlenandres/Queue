@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Queue.UI.Core\Queue.UI.Core.csproj" />
+    <ProjectReference Include="..\QueueList\QueueList.csproj" />
   </ItemGroup>
 
 </Project>

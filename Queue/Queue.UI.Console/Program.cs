@@ -1,6 +1,9 @@
 ﻿using Queue.UI.Core;
+using QueueList;
 
-var queue = new QueueUsingArray<int>(5);
+//var queue = new QueueUsingArray<int>(5);
+//var queue = new QueueUsingList<int>();
+var queue = new Queue<int>();
 var opc = "0";
 
 do
