@@ -36,8 +36,7 @@ do
 		case "3":
 			try
 			{
-				var item = queue.Peek();
-                Console.WriteLine($"Item in Peek: {item}");
+                Console.WriteLine($"Item in Peek: {queue.Peek()}");
 			}
 			catch (Exception ex)
 			{
