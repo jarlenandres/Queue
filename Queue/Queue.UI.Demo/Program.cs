@@ -28,7 +28,7 @@ internal class Program
             counter ++;
             queue.Enqueue(counter);
             Console.WriteLine($"Enqueue: {counter}");
-            Thread.Sleep(random.Next(1000, 5000));
+            Thread.Sleep(random.Next(500, 2000));
         }
     }
     
